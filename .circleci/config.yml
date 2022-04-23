@@ -19,14 +19,14 @@
               echo "بسم الله الرحمن الرحيم"
         # BACK END INSTALLATION
         - run: 
-            name: Back-End Install
+            name: API Install
             command: |
-              npm run backend:install
+              npm run api:install
         # BACK END build
         - run: 
-            name: Back-End BUILD
+            name: API BUILD
             command: |
-              npm run backend:build
+              npm run api:build
         # FRONT END INSTALLATION
         - run: 
             name: Front-End Install
