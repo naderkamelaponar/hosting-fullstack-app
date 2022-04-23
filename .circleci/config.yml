@@ -37,4 +37,7 @@
             name: Front-End BUILD
             command: |
               npm run frontend:build
-        
+workflows:
+  build:
+    - jobs 
+    
