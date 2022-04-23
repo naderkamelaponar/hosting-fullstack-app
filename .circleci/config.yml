@@ -10,8 +10,8 @@
         - image: "cimg/base:stable"
       steps:
         - checkout
-         - node/install:
-          install-yarn: true
+        - node/install:
+           install-yarn: true
         # install dependencies in both apps
         - run:
             name: First
