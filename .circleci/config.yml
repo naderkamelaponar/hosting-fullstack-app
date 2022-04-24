@@ -2,16 +2,22 @@
   orbs:
     # orgs contain basc recipes and reproducible actions (install node, aws, etc.)
     node: circleci/node@5.0.2
+    browser-tools: circleci/browser-tools@1.2.3
+
     # different jobs are calles later in the workflows sections
   jobs:
     build:
       docker:
         # the base image can run most needed actions with orbs
         - image: "cimg/base:stable"
+        - image: cimg/node:16.13.1-browsers
+
       steps:
+        - browser-tools/install-chrome
+        - browser-tools/install-chromedriver
+        - node/install
         - checkout
-        - node/install:
-           install-yarn: true
+        
         # install dependencies in both apps
         - run:
             name: First
