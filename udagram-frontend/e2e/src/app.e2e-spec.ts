@@ -10,9 +10,9 @@ describe('new App', () => {
     beforeEach(() => {
       page.navigateTo('/home');
     });
-    it('should have a title saying Home', () => {
+    it('should have a title saying CREATE A NEW POST', () => {
       page.getPageOneTitleText().then(title => {
-        expect(title).toEqual('Home');
+        expect(title).toEqual('CREATE A NEW POST');
       });
     });
   });

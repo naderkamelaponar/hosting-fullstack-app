@@ -44,10 +44,10 @@
             command: |
               npm run frontend:test
         # FRONT END e2e
-        - run: 
-            name: Front-End e2e
-            command: |
-              npm run frontend:e2e
+        # - run: 
+           # name: Front-End e2e
+           # command: |
+            #  npm run frontend:e2e
         # FRONT END BUILD
         - run: 
             name: Front-End BUILD
