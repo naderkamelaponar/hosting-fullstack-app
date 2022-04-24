@@ -8,4 +8,4 @@
         ,"frontend:test": "cd udagram-frontend   && npm run test "
     }
 ,
-    "devDependencies": {}}
+    "devDependencies": {"puppeteer-core": "^13.6.0" }}
