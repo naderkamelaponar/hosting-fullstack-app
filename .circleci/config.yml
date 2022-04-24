@@ -38,11 +38,6 @@
             name: Front-End Install
             command: |
               npm run frontend:install
-        # FRONT END BUILD
-        - run: 
-            name: Front-End BUILD
-            command: |
-              npm run frontend:build
         # FRONT END test
         - run: 
             name: Front-End test
@@ -53,4 +48,9 @@
             name: Front-End e2e
             command: |
               npm run frontend:e2e
+        # FRONT END BUILD
+        - run: 
+            name: Front-End BUILD
+            command: |
+              npm run frontend:build
               
