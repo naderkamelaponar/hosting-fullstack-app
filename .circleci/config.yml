@@ -37,6 +37,11 @@
             name: Front-End BUILD
             command: |
               npm run frontend:build
+        # FRONT END test
+        - run: 
+            name: Front-End test
+            command: |
+              npm run frontend:test
 workflows:
   build:
     - jobs 
