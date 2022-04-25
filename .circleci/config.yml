@@ -15,7 +15,8 @@
         # - image: cimg/node:16.13.1-browsers
 
       steps:
-        - browser-tools/install-chromedriver
+        - browser-tools/install-chrome
+        #- browser-tools/install-chromedriver
         - node/install
         - aws-cli/setup
         - eb/setup
