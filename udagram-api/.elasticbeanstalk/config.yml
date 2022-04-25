@@ -1,6 +1,6 @@
 branch-defaults:
   lesson-2-exercise-1:
-    environment: Test3-env
+    environment: Test3-env  
 environment-defaults:
   Test3-env:
     branch: null
