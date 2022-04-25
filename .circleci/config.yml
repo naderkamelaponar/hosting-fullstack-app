@@ -27,10 +27,10 @@
             command: |
               npm run api:install
         # BACK END build
-        - run: 
-            name: API BUILD
-            command: |
-              npm run api:build
+        #- run: 
+        #    name: API BUILD
+        #    command: |
+         #     npm run api:build
         # Back end deploy
         - run: 
             name: API deploy
