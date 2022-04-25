@@ -1,3 +1,4 @@
+  # بسم الله الرحمن الرحيم
   version: 2.1
   orbs:
     # orgs contain basc recipes and reproducible actions (install node, aws, etc.)
@@ -17,12 +18,6 @@
         - browser-tools/install-chromedriver
         - node/install
         - checkout
-        
-        # install dependencies in both apps
-        - run:
-            name: First
-            command: |
-              echo "بسم الله الرحمن الرحيم"
         # BACK END INSTALLATION
         - run: 
             name: API Install
