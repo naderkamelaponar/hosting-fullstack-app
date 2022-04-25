@@ -2,7 +2,7 @@
 
 
 ## AWS Diagram 
-![aws diagram](https://github.com/naderkamelaponar/hosting-fullstack-app/blob/main/documents/aws-diagram.png?raw=true)
+![aws diagram](https://raw.githubusercontent.com/naderkamelaponar/hosting-fullstack-app/main/documents/images/aws-diagram.png)
 
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
