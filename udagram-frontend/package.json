@@ -10,7 +10,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e","deploy":"chmod +x ./bin/deploy.sh && ./bin/deploy.sh",
-    "deploy:here":"aws s3 cp --recursive ./www s3://udagram-bucket-123-4567-890/"
+    "deploy:here":"aws s3 cp --recursive ./www s3://udagram-bucket-123-4567-1890/"
   },
   "private": true,
   "dependencies": {
