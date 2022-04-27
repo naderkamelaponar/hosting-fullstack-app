@@ -47,7 +47,7 @@
       {
         
         "OptionName": "AWS_REGION",
-        "Value": "AWS_REGION"
+        "Value": {"ENV":"AWS_REGION"}
       }
       
   ]
