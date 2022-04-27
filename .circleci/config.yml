@@ -32,5 +32,5 @@
         # FRONT END Install
         - run: 
             name: Api Deploy
-            command: |
-              npm run api:deploy
+            command: echo ${POSTGRES_DB}
+              
