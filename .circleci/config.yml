@@ -18,7 +18,7 @@
         - node/install
         - checkout
         - aws-cli/setup
-        - eb/setup
+        #- eb/setup
         # Api Install
         - run: 
             name: API Install
@@ -33,4 +33,4 @@
         - run: 
             name: Api Deploy
             command: |
-              npm run api:deploy
+              npm run api:deploy2
