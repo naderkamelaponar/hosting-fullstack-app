@@ -33,6 +33,27 @@
              npm run api:build
         # FRONT END Install
         - run: 
+            name: Front-End Install
+            command: |
+              npm run frontend:install
+        # FRONT END Test
+        - run: 
+            name: Front-End Test
+            command: |
+              npm run frontend:test
+        # FRONT END Build
+        - run: 
+            name: Front-End Build
+            command: |
+              npm run frontend:build
+         
+        # FRONT END deploy
+        - run: 
+            name: Front-End deploy
+            command: |
+              npm run frontend:deploy
+        # Api Deploy
+        - run: 
             name: Api Deploy
             command: |
               npm run api:deploy
