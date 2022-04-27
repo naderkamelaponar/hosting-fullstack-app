@@ -1,0 +1,53 @@
+[
+    {
+      "Namespace": {"ENV":"URL"},
+      "OptionName": "AWS_ACCESS_KEY_ID",
+      "Value": {"ENV":"AWS_ACCESS_KEY_ID"}
+    },
+    {
+        "Namespace": {"ENV":"URL"},
+        "OptionName": "AWS_BUCKET",
+        "Value": {"ENV":"AWS_BUCKET"}
+      },
+      {
+        "Namespace": {"ENV":"URL"},
+        "OptionName": "AWS_DEFAULT_REGION",
+        "Value": {"ENV":"AWS_DEFAULT_REGION"}
+      },
+      {
+        "Namespace": {"ENV":"URL"},
+        "OptionName": "AWS_SECRET_ACCESS_KEY",
+        "Value": {"ENV":"AWS_SECRET_ACCESS_KEY"}
+      },
+      {
+        "Namespace": {"ENV":"URL"},
+        "OptionName": "JWT_SECRET",
+        "Value": {"ENV":"JWT_SECRET"}
+      },
+      {
+        "Namespace": {"ENV":"URL"},
+        "OptionName": "POSTGRES_DB",
+        "Value": {"ENV":"POSTGRES_DB"}
+      },
+      {
+        "Namespace": {"ENV":"URL"},
+        "OptionName": "POSTGRES_HOST",
+        "Value": {"ENV":"POSTGRES_HOST"}
+      },
+      {
+        "Namespace": {"ENV":"URL"},
+        "OptionName": "POSTGRES_PASSWORD",
+        "Value": {"ENV":"POSTGRES_PASSWORD"}
+      },
+      {
+        "Namespace": {"ENV":"URL"},
+        "OptionName": "POSTGRES_USERNAME",
+        "Value": {"ENV":"POSTGRES_USERNAME"}
+      },
+      {
+        "Namespace": {"ENV":"URL"},
+        "OptionName": "AWS_REGION",
+        "Value": {"ENV":"AWS_REGION"}
+      }
+      
+  ]

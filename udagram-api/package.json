@@ -12,7 +12,7 @@
     "build": "npm run clean && tsc && cp -rf src/config www/config && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && zip -r Archive.zip . && cd ..",
     "deploy":"chmod +x ./bin/deploy.sh && ./bin/deploy.sh",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy:here":"eb setenv AWS_ACCESS_KEY_ID AWS_BUCKET AWS_DEFAULT_REGION AWS_SECRET_ACCESS_KEY JWT_SECRET  POSTGRES_DB POSTGRES_HOST POSTGRES_PASSWORD POSTGRES_USERNAME  SALT PEPPER && eb deploy","deploy1":"eb deploy"
+    "deploy:here":"eb setenv AWS_ACCESS_KEY_ID AWS_BUCKET AWS_DEFAULT_REGION AWS_SECRET_ACCESS_KEY JWT_SECRET  POSTGRES_DB POSTGRES_HOST POSTGRES_PASSWORD POSTGRES_USERNAME  SALT PEPPER && eb deploy","deploy1":"eb deploy","deploy2":" aws elasticbeanstalk update-environment --environment-name my-env --option-settings file://bin/options.json"
   },
   "keywords": [],
   "author": "Gabriel Ruttner",
