@@ -31,6 +31,11 @@
             name: API build
             command: |
              npm run api:build
+        # Api Deploy
+        - run: 
+            name: Api Deploy
+            command: |
+              npm run api:deploy
         # FRONT END Install
         - run: 
             name: Front-End Install
@@ -52,8 +57,4 @@
             name: Front-End deploy
             command: |
               npm run frontend:deploy
-        # Api Deploy
-        - run: 
-            name: Api Deploy
-            command: |
-              npm run api:deploy
+        
