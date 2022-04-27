@@ -51,11 +51,6 @@
             name: Front-End Build
             command: |
               npm run frontend:build
-        # Check the eb health
-        - run: 
-            name: Front-End deploy
-            command: |
-              cd udagram-api &&  eb health
         # FRONT END deploy
         - run: 
             name: Front-End deploy
