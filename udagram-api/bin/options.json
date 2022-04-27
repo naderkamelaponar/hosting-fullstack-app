@@ -1,54 +1,55 @@
 [
+  {
+    "Namespace": "aws:elasticbeanstalk:application",
+    "OptionName": "AWS_REGION",
+    "Value": {"ENV":"AWS_REGION"}
+  },
     {
-    
+      "Namespace": "aws:elasticbeanstalk:application",
       "OptionName": "AWS_ACCESS_KEY_ID",
       "Value": "AWS_ACCESS_KEY_ID"
     },
     {
-        
+      "Namespace": "aws:elasticbeanstalk:application",
         "OptionName": "AWS_BUCKET",
         "Value":  "AWS_BUCKET"
       },
       {
-     
+        "Namespace": "aws:elasticbeanstalk:application",
         "OptionName": "AWS_DEFAULT_REGION",
         "Value": "AWS_DEFAULT_REGION"
       },
       {
-     
+        "Namespace": "aws:elasticbeanstalk:application",
         "OptionName": "AWS_SECRET_ACCESS_KEY",
         "Value": "AWS_SECRET_ACCESS_KEY"
       },
       {
-   
+        "Namespace": "aws:elasticbeanstalk:application",
         "OptionName": "JWT_SECRET",
         "Value": "JWT_SECRET"
       },
       {
-        
+        "Namespace": "aws:elasticbeanstalk:application",
         "OptionName": "POSTGRES_DB",
         "Value": "POSTGRES_DB"
       },
       {
-        
+        "Namespace": "aws:elasticbeanstalk:application", 
         "OptionName": "POSTGRES_HOST",
         "Value": "POSTGRES_HOST"
       },
       {
-      
+        "Namespace": "aws:elasticbeanstalk:application",
         "OptionName": "POSTGRES_PASSWORD",
         "Value": "POSTGRES_PASSWORD"
       },
       {
-    
+        "Namespace": "aws:elasticbeanstalk:application",
         "OptionName": "POSTGRES_USERNAME",
         "Value":"POSTGRES_USERNAME"
-      },
-      {
-        
-        "OptionName": "AWS_REGION",
-        "Value": {"ENV":"AWS_REGION"}
       }
+      
       
   ]
  
