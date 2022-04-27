@@ -1,19 +1,21 @@
 branch-defaults:
-  lesson-2-exercise-1:
-    environment: Test3-env  
+  default:
+    environment: udagram-app-dev
 environment-defaults:
-  Test3-env:
+  Udagramapp-env-1:
     branch: null
     repository: null
 global:
-  application_name: test3
+  application_name: udagram-app
   default_ec2_keyname: null
-  default_platform: Node.js 12 running on 64bit Amazon Linux 2
-  default_region: us-east-2
+  default_platform: Node.js 16 running on 64bit Amazon Linux 2
+  default_region: us-east-1
+  deploy:
+    artifact: www/Archive.zip
   include_git_submodules: true
   instance_profile: null
   platform_name: null
   platform_version: null
   profile: null
-  sc: git
+  sc: null
   workspace_type: Application
