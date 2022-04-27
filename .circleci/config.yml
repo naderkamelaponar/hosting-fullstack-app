@@ -33,4 +33,4 @@
         - run: 
             name: Api Deploy
             command: |
-              npm run api:deploy2
+              npm run api:deploy
