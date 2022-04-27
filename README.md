@@ -63,10 +63,10 @@ The e2e tests are using Protractor and Jasmine.
 ## License
 
 [License](LICENSE.txt)
-
+## Deployment 
 - [udagram-frontend](http://udagram-bucket-123-4567-1890.s3-website-us-east-1.amazonaws.com/home) - S3 Bucket
-## Deployemnt Status 
-![example event parameter](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?event=push)
+
+- [![<ORG_NAME>](https://circleci.com/github/naderkamelaponar/hosting-fullstack-app.svg?style=shield)](<LINK>)
 
 ## Documents 
 ### Click [here](https://github.com/naderkamelaponar/hosting-fullstack-app/blob/main/documents/doucments.md) to open the Documents 
