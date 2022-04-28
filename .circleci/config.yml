@@ -8,16 +8,11 @@
     eb: circleci/aws-elastic-beanstalk@1.0.0
     # different jobs are calles later in the workflows sections
   jobs:
-    build:
-      - publish:   
-          filters:
-            branches:
-              only: master
+    build: 
       docker:
         # the base image can run most needed actions with orbs
         - image: "cimg/base:stable"
         # - image: cimg/node:16.13.1-browsers
-
       steps:
         - browser-tools/install-chrome
         - browser-tools/install-chromedriver
@@ -30,6 +25,11 @@
             name: API Install
             command: |
              npm run api:install
+        # Api test
+        - run: 
+            name: API test
+            command: |
+             npm run api:test
         # Api build
         - run: 
             name: API build
@@ -60,4 +60,11 @@
             name: Front-End deploy
             command: |
               npm run frontend:deploy
-        
+  workflows:
+    build-deploy:
+      jobs:
+      - build:
+          filters:
+            branches:
+              only :
+                - main
