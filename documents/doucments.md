@@ -1,5 +1,14 @@
 # AWS Hosting Udagram App
 
+## Dependencies 
+
+- Node v14.15.1 (LTS) or more recent
+- npm 6.14.8 (LTS) or more recent
+- AWS CLI v2
+- A RDS database running Postgres.
+- Elastic beanstalk  to run the API
+- A S3 bucket for hosting uploaded pictures.
+
 
 ## AWS 
 ### AWS Infrastructure
