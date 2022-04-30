@@ -23,7 +23,7 @@ import { V0_FEED_MODELS, V0_USER_MODELS } from "./controllers/v0/model.index";
   app.use(bodyParser.json());
 
   app.use(cors());
-
+app.get("/")
   app.use("/api/v0/", IndexRouter);
 
   // Root URI call
